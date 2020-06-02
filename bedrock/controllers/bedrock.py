@@ -9,7 +9,7 @@ MyApp Does Amazing Things! %s
 """ % (get_version(), get_version_banner())
 
 
-class Base(Controller):
+class BedrockBase(Controller):
     class Meta:
         label = 'base'
 
